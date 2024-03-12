@@ -177,7 +177,6 @@ Uncle Bob's comment on the responsibilities of providing proof that the solution
 -->
 
 ---
-transition: slide-up
 layout: image-right
 image: /assets/images/react-server-components.webp
 class: flex flex-col justify-center
@@ -189,6 +188,44 @@ class: flex flex-col justify-center
 How do you re-think Separation of Concerns with a Domain-centre approach in this example? 
 -->
 
+---
+transition: slide-up
+layout: two-cols
+class: flex flex-col justify-center
+---
+
+# A day in the life
+of a dev without ddd
+
+::right::
+
+<div
+    class="h-full w-full"
+    style="background: url('/assets/images/no-ddd-day-1.png') top;background-size: contain;"
+></div>
+
+---
+transition: slide-up
+layout: two-cols
+class: flex flex-col justify-center
+---
+
+# Next day in the life
+of a dev without ddd
+
+<div
+    class="h-full w-full"
+    style="background: url('/assets/images/drake-no.png'); background-size: contain; background-repeat: no-repeat"
+></div>
+
+::right::
+
+<div class="h-full w-full" style="padding-top: 89px">
+    <div
+        class="h-full w-full"
+        style="background: url('/assets/images/no-ddd-day-2.png'); background-size: contain; background-repeat: no-repeat;"
+    ></div>
+</div>
 
 ---
 transition: slide-up
@@ -199,11 +236,16 @@ class: flex flex-col justify-center
 # A day in the life
 Of a developer on DDD
 
+<div
+    class="h-full w-full"
+    style="background: url('/assets/images/drake-yes.png'); background-size: contain; background-repeat: no-repeat"
+></div>
+
 ::right::
 
 <div
     class="h-full w-full"
-    style="background: url('/assets/images/ddd-day.png') top;background-size: cover;"
+    style="background: url('/assets/images/ddd-day-1.png') top;background-size: cover;"
 ></div>
 
 ---
