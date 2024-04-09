@@ -8,7 +8,7 @@ class: text-center
 transition: fade
 ---
 
-<h1> <span v-mark="{ at: 2, color: 'red', type: 'strike-through', strokeWidth: 5 }">Vue</span> Architecture Disasterclass </h1>
+<h1> <span v-mark="{ at: 1, color: 'red', type: 'strike-through', strokeWidth: 5 }">Vue</span> Architecture Disasterclass </h1>
 What they don't tell you in frontend tutorials
 
 <!--
@@ -196,8 +196,11 @@ You have:
 3. Some user interactions that produce side effects
 
 [click] Here the component is deciding its caching strategy and making the request for what it needs. This shouldn't be here. We want our components to request what they need, and they shouldn't be concerned on whether the data comes from cache, store, api, sockets, LocalStorage, or wherever else. Lets remove this responsibility from here.
+
 [click] Here we have some UI state which is binding a user interaction with the Domain. Again, this shouldn't happen. Ideally there should be a function that handles the user interaction and provides you with the result of that interaction. Here for example, your search functionality shouldn't care at all on whether is searching recipes, cars, meetups, whatever. Doing this with composables is now much easier.
+
 [click] Here we have a user interaction that has side effects. Those side effects can be in the store, or in the infra. Again, the user interaction should be separate its side effects. Ideally your component should access a use case function (in this case, select or deselect recipe), and your component doesn't need to care whatever happens inside that function.
+
 [click] Here we compute new properties required for the current View. This shouldn't be here either. Ideally the data your component receives should already contain everything it needs to be displayed properly.
 
 In short, the only responsibilities your components should have are:
