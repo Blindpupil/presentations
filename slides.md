@@ -17,7 +17,7 @@ mdc: true
 github.com/Blindpupil/presentations
 
 ---
-src: ./decks/architecture-disasterclass.md
+src: ./decks/hexagon-intro.md
 ---
 
 Deck
