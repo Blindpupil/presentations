@@ -1,8 +1,6 @@
-# Intro to DDD
+# Repository of all my public presentations
 
-Introductory presentation on Domain Driven Design using [Slidev](https://github.com/slidevjs/slidev).
-
-# [Slidev](https://github.com/slidevjs/slidev)
+Using [Slidev](https://github.com/slidevjs/slidev).
 
 To start the slide show:
 
