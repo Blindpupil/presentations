@@ -277,7 +277,18 @@ export class Ingredient {
 }
 ```
 
+<!--
+Import your types, constants and enums.
 
+The constructor is private, and the properties should be private and start as readonly, and only become editable when
+necessary.
+
+The way you instantiate the Domain is with that fromProperties method. And you access the properties via that properties
+getter. The properties represent a snapshot of the current state of the domain model. All of these are measures in place
+to protect the domain.
+
+Hopefully that exception that the Domain method throws would teach the reader that you can't convert volume to mass.
+-->
 
 ---
 transition: slide-left
