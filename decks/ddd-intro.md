@@ -104,7 +104,8 @@ It is the learning process, not the end goal, which is the greatest strength of 
 
 Any team can write a software product to meet the needs of a set of use cases.
 
-But teams that put time and effort into the problem domain they are working on, can consistently evolve the product to meet new business use cases.
+But teams that put time and effort into the problem domain they are working on, can consistently evolve the product to 
+meet new business use cases.
 -->
 
 ---
