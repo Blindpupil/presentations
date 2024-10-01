@@ -17,3 +17,5 @@ If you're interested and want to hear more, reach out!
   [dev.to/blindpupil/domain-driven-architecture-in-the-frontend-i-1f41](https://dev.to/blindpupil/domain-driven-architecture-in-the-frontend-i-1f41)
 
 </div>
+
+🙏
