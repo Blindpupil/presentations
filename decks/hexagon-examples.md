@@ -70,7 +70,7 @@ alt=""
 ---
 transition: slide-left
 layout: image-left
-image: https://cover.sli.dev
+image: /assets/images/goal.png
 ---
 
 # Remembering Architecture Goals
@@ -108,8 +108,6 @@ backgroundSize: contain
 image: /assets/images/frontend-hexagon.webp
 class: flex flex-col justify-center
 ---
-
-# Let the Hexagon help you
 
 <!--
 Hexagonal architecture is all about single responsibility and separation of concerns.So let's define responsibilities 
