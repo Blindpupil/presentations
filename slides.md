@@ -17,7 +17,7 @@ mdc: true
 github.com/Blindpupil/presentations
 
 ---
-src: ./decks/hexagonal-ddd-for-vue-paris.md
+src: ./decks/ddd-for-frontend-devfest-berlin.md
 ---
 
 Deck

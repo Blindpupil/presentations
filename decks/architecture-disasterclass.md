@@ -75,7 +75,7 @@ Your architecture should enable you to:
 
 
 <!--
-Architecture goals will likely vary accross projects. Here are a couple that could apply to most.
+Architecture goals will likely vary across projects. Here are a couple that could apply to most.
 
 1. Adding new features or refactors should not introduce regressions.
 2. Your code provides value no matter how far ahead you look into the future. You should be able to grab your business logic out of your Vue application, and use it in a React application, or outside of the browser in a CLI tool, or with a voice interface, whatever. Removes vendor lock-in. 

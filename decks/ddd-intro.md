@@ -87,6 +87,7 @@ The goal of DDD is to help identify, protect, and build this Domain.
 You want your developers to help you solve your business problem with the tools they know how to use.
 -->
 
+
 ---
 layout: quote
 class: text-center
@@ -108,6 +109,7 @@ But teams that put time and effort into the problem domain they are working on, 
 meet new business use cases.
 -->
 
+
 ---
 layout: image-right
 image: /assets/images/gemini.webp
@@ -124,6 +126,7 @@ Backend spent weeks implementing a layer of data analysis around an external api
 With more communication and context we could’ve focused on implementing the functionality in the FE, by communicating directly with the external API.
 This would've given the shareholders the assurance they wanted, and it would have given our team more time to implement the data analysis for it correctly.
 -->
+
 
 ---
 transition: slide-up
@@ -151,6 +154,7 @@ layout: quote
 These techniques are cultural and organizational, as much as they are technical patterns applied in the code.
 -->
 
+
 ---
 transition: slide-up
 layout: quote
@@ -159,7 +163,7 @@ layout: quote
 # Technical implications of DDD
 
 - Developers should be able to learn about the domain solution by reading the code
-- Domain experts should be able to read and understand the code that applies the solution
+- Domain experts should be able to read and understand the code that implements the solution
 - You are responsible for providing proof that your implementation works 
 
 <!--
@@ -167,6 +171,7 @@ The goal of these technical patterns is to make it possible for the engineers re
 
 Uncle Bob's comment on the responsibilities of providing proof that the solution works. 
 -->
+
 
 ---
 layout: image-right
